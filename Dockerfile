@@ -20,5 +20,4 @@ EXPOSE 8080
 ENV NODE_ENV production
 
 # Command to run your application
-CMD ["npm", "start"]
-
+CMD npm start
