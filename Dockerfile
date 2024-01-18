@@ -1,14 +1,3 @@
-# FROM httpd:2.4
-
-# WORKDIR /app
-
-# COPY . /usr/local/apache2/htdocs/
-
-# EXPOSE 8080 #
-
-# # Command to run your application
-# CMD ["npm", "start"]
-
 # Use an official lightweight Node.js image
 FROM node:latest
 
