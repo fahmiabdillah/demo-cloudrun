@@ -12,5 +12,5 @@ steps:
 
 # Deploy container image to Cloud Run
 - name: 'gcr.io/cloud-builders/gcloud'
-  args: ['beta', 'run', 'deploy', 'webstat', '--image', 'gcr.io/dev-rifki-karim-ramadhan/webstat:latest', '--region', 'asia-southeast2', '--platform', 'managed']
+  args: ['beta', 'run', 'deploy', 'webstat', '--image', 'gcr.io/dev-fahmirullah-abdillah/github.com/fahmiabdillah/demo-cloudrun', '--region', 'asia-southeast2', '--platform', 'managed']
   id: deploy to cloud run
