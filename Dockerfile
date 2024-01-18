@@ -4,7 +4,7 @@
 
 # COPY . /usr/local/apache2/htdocs/
 
-# EXPOSE 8080
+# EXPOSE 8080 #
 
 # # Command to run your application
 # CMD ["npm", "start"]
@@ -32,3 +32,4 @@ ENV NODE_ENV production
 
 # Command to run your application
 CMD ["npm", "start"]
+
